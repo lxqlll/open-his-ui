@@ -26,3 +26,10 @@ export function logout() {
   })
 }
 
+// 菜单
+export function getMenus() {
+  return request({
+    url: '/login/getMenus',
+    method: 'get'
+  })
+}
